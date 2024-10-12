@@ -6,3 +6,6 @@ mouse = false
 
 [editor.lsp]
 display-inlay-hints = true
+
+[keys.insert]
+j = { k = "normal_mode" }
