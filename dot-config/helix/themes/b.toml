@@ -1,0 +1,4 @@
+inherits = "catppuccin_mocha"
+
+"ui.linenr" = { fg = "red" }
+"ui.linenr.selected" = { fg = "cyan" }
