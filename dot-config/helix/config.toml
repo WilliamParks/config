@@ -3,6 +3,7 @@ theme = "b"
 [editor]
 line-number = "relative"
 mouse = false
+bufferline = "multiple"
 
 [editor.soft-wrap]
 enable = true
@@ -12,4 +13,3 @@ display-inlay-hints = true
 
 [keys.insert]
 j = { k = "normal_mode" }
-
