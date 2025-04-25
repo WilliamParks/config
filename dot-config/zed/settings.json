@@ -17,5 +17,9 @@
   },
   "vim": {
     "default_mode": "helix_normal"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
   }
 }
