@@ -8,13 +8,10 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "theme": "One Dark",
-  "vim_mode": true,
+  "helix_mode": true,
   "relative_line_numbers": true,
-  "ui_font_size": 12,
-  "buffer_font_size": 12,
-  "vim": {
-    "default_mode": "helix_normal"
-  },
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
   "telemetry": {
     "diagnostics": false,
     "metrics": false
