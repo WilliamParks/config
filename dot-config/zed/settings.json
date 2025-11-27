@@ -9,11 +9,20 @@
 {
   "theme": "One Dark",
   "helix_mode": true,
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "ui_font_size": 14,
   "buffer_font_size": 14,
   "telemetry": {
     "diagnostics": false,
     "metrics": false
+  },
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "path_lookup": true,
+        "path": "clangd",
+        "arguments": ["--header-insertion=never"]
+      }
+    }
   }
 }
