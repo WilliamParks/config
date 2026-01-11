@@ -7,22 +7,38 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "theme": "One Dark",
+  "inlay_hints": {
+    "show_background": true,
+    "enabled": true,
+  },
+  ],
+  "theme": "Gruvbox Dark Hard",
   "helix_mode": true,
   "relative_line_numbers": "enabled",
   "ui_font_size": 14,
   "buffer_font_size": 14,
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "lsp": {
     "clangd": {
       "binary": {
         "path_lookup": true,
         "path": "clangd",
-        "arguments": ["--header-insertion=never"]
-      }
-    }
-  }
+        "arguments": ["--header-insertion=never"],
+      },
+    },
+  },
+  "languages": {
+    "Python": {
+      "language_servers": [
+        // Disable basedpyright and enable ty, and otherwise
+        // use the default configuration.
+        "ty",
+        "!basedpyright",
+        "...",
+      ],
+    },
+  },
 }
