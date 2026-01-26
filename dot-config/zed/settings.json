@@ -11,6 +11,14 @@
     "show_background": true,
     "enabled": true,
   },
+  "agent": {
+    "default_model": {
+      "provider": "openai",
+      "model": "gpt-5.2"
+    },
+    "model_parameters": []
+  },
+  "theme": "One Dark",
   "helix_mode": true,
   "relative_line_numbers": "enabled",
   "ui_font_size": 14,
