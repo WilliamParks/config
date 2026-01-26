@@ -4,5 +4,17 @@
     "bindings": {
       "j k": "vim::NormalBefore"
     }
+  },
+  {
+    "context": "(Editor && edit_prediction)",
+    "bindings": {
+      "shift-enter": "editor::AcceptEditPrediction"
+    }
+  },
+  {
+    "context": "(Editor && edit_prediction_conflict)",
+    "bindings": {
+      "alt-l": null
+    }
   }
 ]
